@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Nuuva - Plataforma de Autocuidado </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="../NUUVA/images/logo.NUUVA.png"  sizes="300x300" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif !important;
+        }
+        body, p, li, details, summary, button, .button, .buttonAP, .buttonFU, .buttonCTA, .buttonCHA {
+            font-family:  'Lato', sans-serif !important;
+        }
+    </style>
+<header class="header">
+          <div class="logo">
+            <img
+              src="../NUUVA/images/logoheader.NUUVA.png"
+              style="width: 160px; height: auto;"
+              alt="Logo da Plataforma"
+            />
+          </div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#funciona">Como funciona</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+        </ul>
+            </nav>
+
+  <div class="button">
+            <button>Assinar agora</button>
+          </div>
+      
+
+
+</header>
+
+   <section id="apresentation">
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin-bottom: 32px;">
+    <p style="font-size: 1.2em; max-width: 680px;">
+      A <span style="color:#324001;">N</span><span style="color:#324001;">u</span><span style="color:#324001;">u</span><span style="color:#324001;">v</span><span style="color:#324001;">a</span>,
+      <br> um app de saúde mental por assinatura com foco em autocuidado e equilíbrio. <br>
+      Cuide da sua saúde mental com praticidade e acolhimento. Descubra uma nova forma de bem-estar emocional.
+    </p>
+  </div>
+
+  <div class="apresentation-wrapper">
+    <div class="apresentation-texts">
+      <div class="container-apresentation1">
+        <p>Meditações, diários, exercícios emocionais</p>
+      </div>
+      <div class="container-apresentation2">
+        <p>Acesso imediato e 24h</p>
+      </div>
+      <div class="container-apresentation3">
+        <p>Diário de humor e autoconhecimento</p>
+      </div>
+    </div>
+    <div class="apresentation-image">
+      <img src="../NUUVA/images/nuuva-apresentacao.png" alt="Imagem de apresentação Nuuva">
+    <div class="buttonAP">Assinar por R$19,90/mês</div>
+    <style>
+        .apresentation-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .buttonAP {
+            position: absolute;
+            bottom: -15px;
+            left: 40%;
+            transform: translateX(-50%);
+            font-size: 1.3em;
+            padding: 18px 40px;
+            background: #324001;
+            color: #fff;
+            border-radius: 32px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(50,64,1,0.08);
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+        .buttonAP:hover {
+            background: #46601a;
+        }
+        @media (max-width: 900px) {
+            .buttonAP {
+                left: 50%;
+                font-size: 1.1em;
+                padding: 14px 28px;
+            }
+        }
+        @media (max-width: 600px) {
+            .apresentation-image {
+                min-height: 120px;
+            }
+            .buttonAP {
+                position: static;
+                transform: none;
+                margin: 16px auto 0 auto;
+                display: block;
+                width: 90%;
+                font-size: 1em;
+                padding: 12px 0;
+            }
+        }
+    </style>
+    </div>
+  </div>
+</section>
+
+
+<section id="funciona">
+    <style>
+        .funciona-columns {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+        .funciona-col {
+            flex: 1 1 200px;
+            min-width: 200px;
+            max-width: 260px;
+            background: #f7f7f7;
+            border-radius: 12px;
+            padding: 24px 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            text-align: center;
+        }
+        .buttonfunciona-col {
+            flex: 1 1 200px;
+            min-width: 200px;
+            max-width: 260px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width: 900px) {
+            .funciona-columns {
+                flex-wrap: wrap;
+            }
+            .funciona-col {
+                flex: 1 1 45%;
+                max-width: 100%;
+            }
+        }
+        @media (max-width: 600px) {
+            .funciona-columns {
+                flex-direction: column;
+                gap: 16px;
+            }
+            .funciona-col {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+    <h1>Como Funciona</h1>
+    <p>Sua jornada de bem-estar em poucos minutos</p>
+    <div class="funciona-columns">
+        <div class="funciona-col">
+            <img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/stairs-up.png" alt="stairs-up"/><br>
+            <strong>1. Escolha seu plano</strong>
+            <p>Selecione o plano que melhor se adapta às suas necessidades, respondendo a um mini questionário rápido (2‑3 passos).</p>
+        </div>
+        <div class="funciona-col">
+            <img width="40" height="40" src="https://img.icons8.com/ios/50/unlock.png" alt="unlock"/><br>       
+            <strong>2. Acesso imediato</strong>
+            <p>Após a assinatura, você terá acesso imediato a todo o conteúdo da Nuuva, disponível no app ou pelo navegador.</p>
+        </div>
+        <div class="funciona-col">
+            <img width="40" height="40" src="https://img.icons8.com/ios/50/today.png" alt="today"/><br>
+            <strong>3. Práticas diárias</strong>
+            <p>Explore meditações, diários emocionais e exercícios práticos para cuidar da sua saúde mental.</p>
+        </div>
+        <div class="buttonfunciona-col">
+             <div class="buttonFU">Ver planos</div>
+        </div>
+    </div>
+    <main>
+        
+
+
+    </main>
+</section>
+
+<section id="beneficios">
+    <main>
+        <h1>Benefícios</h1>
+    <p>Descubra as vantagens de usar a Nuuva</p>
+        <div style="display: flex; gap: 32px; flex-wrap: wrap; justify-content: center; margin-bottom: 40px;">
+            <div style="flex: 1 1 320px; max-width: 480px; background: #fbffee ; border-radius: 18px; padding: 36px 28px; box-shadow: 0 4px 16px rgba(50,64,1,0.08); margin: 8px;">
+                <h2 style="color: #324001; margin-bottom: 16px;">Autoconhecimento e Rotina Saudável</h2>
+                <p style="font-size: 1.15em;">
+                    Registre emoções, acompanhe seu humor e descubra padrões emocionais com o diário inteligente da Nuuva. 
+                </p>
+            </div>
+            <div style="flex: 1 1 320px; max-width: 480px; background: #fbffee ; border-radius: 18px; padding: 36px 28px; box-shadow: 0 4px 16px rgba(50,64,1,0.08); margin: 8px;">
+                <h2 style="color: #324001; margin-bottom: 16px;">Conteúdo Exclusivo e Prático</h2>
+                <p style="font-size: 1.15em;">
+                    Acesse meditações guiadas, exercícios emocionais e ferramentas práticas para lidar com desafios do dia a dia.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    </main>
+</section>
+
+<section id="depoimentos">
+    <main>
+         <h1>Depoimentos</h1>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const items = document.querySelectorAll('.carousel-item');
+            let current = 0;
+            function showItem(index) {
+                items.forEach((item, i) => {
+                    item.classList.toggle('active', i === index);
+                });
+            }
+            setInterval(() => {
+                current = (current + 1) % items.length;
+                showItem(current);
+            }, 4000); // Troca a cada 4 segundos
+        });
+    </script>
+    <p>Veja o que nossos usuários estão dizendo</p>
+    <div class="carousel-container">    
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="../NUUVA/images/depoimento-pessoa1.png" alt="Usuários da Nuuva" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 12px;">
+                <p>"A Nuuva me ajudou a criar uma rotina de autocuidado. Recomendo para todos!"</p>
+               <strong>- Rodrigo Santos</strong>
+            <div style="margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 4px; font-size: 1.2em; color: #FFD700;">
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+            </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../NUUVA/images/depoimento-pessoa2.png" alt="Usuários da Nuuva" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 12px;">
+                <p>"As meditações são ótimas e o diário de humor me fez entender melhor meus sentimentos."</p>
+                <strong>- Paola Nakajima</strong>
+            <div style="margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 4px; font-size: 1.2em; color: #FFD700;">
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span> 
+            </div>
+             </div>
+            <div class="carousel-item">
+                <img src="../NUUVA/images/depoimento-pessoa3.png" alt="Usuários da Nuuva" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 12px;">
+                <p>"Simples de usar e com conteúdos que realmente fazem diferença no dia a dia."</p>
+               <strong>- Ana Clara Siqueira</strong> 
+               <div style="margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 4px; font-size: 1.2em; color: #FFD700;">
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span>
+                <span title="5 estrelas">&#9733;</span> 
+            </div>
+            </div>
+    </div>
+
+
+    </main>
+</section>
+
+<section id="cta">
+    <div class="cta-container">
+    <div class="cta-content">
+    <img src="../NUUVA/images/CTA.png" alt="Chamada para ação" style="max-width:90%; height:auto; display:block; margin: 0 auto 32px auto;">
+        <div class="buttonCTA">Comece agora</div>
+        <style>
+        .buttonCTA {
+             position: absolute;
+      top: 317%; /* Distância do topo */
+      left: 68.5%; /* Distância da esquerda */
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+        }
+        .buttonCTA:hover {
+            background: #46601a;
+        }
+        @media (max-width: 900px) {
+            .buttonCTA {
+                font-size: 1.1em;
+                padding: 14px 28px;
+            }
+        }
+        @media (max-width: 600px) {
+            .buttonCTA {
+                width: 90%;
+                font-size: 1em;
+                padding: 12px 0;
+                display: block;
+            }
+        }
+        </style>
+    </div>
+    </div>
+</section>
+<style>
+    section {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    section:first-of-type {
+        margin-top: 0;
+    }
+    section:last-of-type {
+        margin-bottom: 0;
+    }
+</style>
+
+<section id="faq">
+    <main>
+    
+     <h1>Perguntas Frequentes</h1>
+    <p>Respostas para as dúvidas mais comuns</p>
+        <div class="faq-list">
+            <details>
+                <summary>O que é a Nuuva?</summary>
+                <p>Nuuva é uma plataforma digital focada no bem-estar emocional. Oferecemos práticas simples e guiadas de autocuidado para ajudar você a cultivar uma rotina mental mais equilibrada.</p>
+            </details>
+            <details>
+                <summary>Como funciona a assinatura?</summary>
+                <p>Você escolhe um plano, faz o pagamento e tem acesso imediato a todos os conteúdos exclusivos da Nuuva, podendo cancelar quando quiser.</p>
+            </details>
+            <details>
+                <summary>Preciso baixar algum aplicativo?</summary>
+                <p>Não! Você pode acessar a Nuuva diretamente pelo navegador ou, se preferir, baixar o app para uma experiência ainda mais completa.</p>
+            </details>
+            <details>
+                <summary>Posso cancelar a qualquer momento?</summary>
+                <p>Sim, a assinatura pode ser cancelada a qualquer momento, sem burocracia.</p>
+            </details>
+            <details>
+                <summary>O conteúdo é atualizado?</summary>
+                <p>Sim, novos conteúdos e práticas são adicionados regularmente para apoiar sua jornada de autocuidado.</p>
+            </details>
+        </div>
+  
+    </main>
+</section>  
+
+<section id="chamada">
+    <main style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 250px;">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+                <h1 style="margin: 0 0 16px 0; text-align: center; font-size: 2.2em; line-height: 1.1;">Comece sua jornada de <br> autocuidado com a Nuuva</h1>
+                <p style="text-align: center;">Disponível no app ou direto pelo navegador</p>
+                <div style="display: flex; gap: 16px; margin: 24px 0; justify-content: center;">
+                    <div class="buttonCHA">Acessar agora</div>
+                    <div class="buttonFU">Ver planos</div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 250px; display: flex; justify-content: center;">
+            <img src="../NUUVA/images/chamada-nuuva.png" alt="Chamada para ação Nuuva" style="max-width: 70%; height: auto; border-radius: 16px;">
+        </div>
+    </main>
+</section>
+
+
+
+
+<section id="footer">
+       <div class="logo">
+            <img
+              src="../NUUVA/images/logoheader.NUUVA.png"
+              style="width: 160px; height: auto;"
+              alt="Logo da Plataforma"
+            />
+          </div>
+    <p class="footer-desc">Nuuva é um espaço digital de autocuidado emocional  
+Nossa missão é promover saúde mental com leveza, rotina e acolhimento.</p>
+    <p class="footer-copy">&copy; 2025 Nuuva. Todos os direitos reservados. <br>
+    <a href="https://www.linkedin.com/in/marcella-rodrigues-dev/" target="_blank">LinkedIn</a> |
+Desenvolvido por Marcella Rodrigues </p>
+</section>
+
+
+
+</body>
+</html>
