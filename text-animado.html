@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texto animado nuuva</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+<div class="txt-animado">
+    Você <span></span>
+</div>
+
+<section id="apresentation" class="section">
+  <div class="hero-container">
+    <span class="badge">🌿 Novo! Cuide de você com leveza</span>
+    <h1 class="hero-title">Bem-estar emocional<br>de forma simples</h1>
+    <p class="hero-subtitle">
+      Meditações, exercícios e ferramentas para autocuidado emocional no seu tempo, no seu ritmo.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#planos" class="btn-primary">Começar Teste Grátis</a>
+      <a href="#planos" class="btn-secondary">Ver Planos</a>
+    </div>
+
+    <ul class="hero-benefits">
+      <li>✅ 7 dias grátis</li>
+      <li>✅ Cancele quando quiser</li>
+      <li>✅ Sem compromisso</li>
+    </ul>
+  </div>
+
+  <style>
+    #apresentation {
+      background: #f7f7f8;
+      text-align: center;
+      padding: 80px 20px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .hero-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #e0e0e0;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    .hero-title {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #1e1e1e;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .hero-subtitle {
+      font-size: 1.2rem;
+      color: #444;
+      margin-bottom: 32px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .btn-primary, .btn-secondary {
+      padding: 16px 32px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s ease-in-out;
+    }
+
+    .btn-primary {
+      background: #324001;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: #46601a;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      border: 2px solid #324001;
+      color: #324001;
+    }
+
+    .btn-secondary:hover {
+      background: #f0f5ec;
+    }
+
+    .hero-benefits {
+      list-style: none;
+      padding: 0;
+      margin-top: 24px;
+      color: #444;
+      font-size: 0.95rem;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 600px) {
+      .hero-title {
+        font-size: 2.2rem;
+      }
+
+      .btn-primary, .btn-secondary {
+        width: 100%;
+        text-align: center;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
+
+</section>
+<header class="header">
+  <div class="navbar-container">
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="../NUUVA/images/logoheader-nuuva.png" alt="Logo da Plataforma" />
+    </div>
+
+    <!-- BOTÃO HAMBÚRGUER -->
+    <button class="hamburger" aria-label="Menu">
+      ☰
+    </button>
+
+    <!-- NAVEGAÇÃO -->
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#entrar">Entrar</a></li>
+      </ul>
+      <a href="#cadastro" class="btn-cadastrar">Cadastrar</a>
+    </nav>
+  </div>
+</header>
+<style>
+/* Cabeçalho */
+.header {
+  background-color: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Container principal */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* <-- garante que a logo fique à esquerda e nav à direita */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Logo */
+.logo img {
+  width: 160px;
+  height: auto;
+}
+
+/* Navegação */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #324001;
+}
+
+/* Botão Cadastrar */
+.btn-cadastrar {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-cadastrar:hover {
+  background-color: #324001;
+}
+
+/* Botão Hamburguer */
+.hamburger {
+  display: none;
+  background: none;
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+  color: #1e1e1e;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    background-color: #fff;
+    position: absolute;
+    top: 72px;
+    right: 32px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    z-index: 99;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .btn-cadastrar {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+
+
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const nav = document.querySelector(".nav");
+
+  hamburger.addEventListener("click", () => {
+    nav.classList.toggle("open");
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

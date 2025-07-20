@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NUUVA - Bem-estar emocional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">NUUVA</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#planos">Planos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="hamburguer" id="menuBtn" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main class="main-container">
+
+    <section class="hero">
+      <h1>Transforme sua mente, eleve seu bem-estar</h1>
+      <p>Descubra nossos planos personalizados para sua jornada emocional.</p>
+      <button>Começar agora</button>
+    </section>
+
+    <section class="cards-section">
+      <article class="card">💡 Autoconhecimento</article>
+      <article class="card">🧘‍♀️ Meditações</article>
+      <article class="card">📈 Relatórios</article>
+    </section>
+
+    <section class="planos-section">
+      <div class="plano">
+        <h2>Basic</h2>
+        <p>R$19,90/mês</p>
+        <ul>
+          <li>Desafios mensais</li>
+          <li>Relatórios semanais</li>
+        </ul>
+      </div>
+      <div class="plano destaque">
+        <h2>Premium</h2>
+        <p>R$49,90/mês</p>
+        <ul>
+          <li>Tudo do Basic</li>
+          <li>Meditações guiadas</li>
+          <li>Exercícios avançados</li>
+        </ul>
+      </div>
+      <div class="plano">
+        <h2>Corporativo</h2>
+        <p>A partir de R$1499,90/mês</p>
+        <ul>
+          <li>Para equipes</li>
+          <li>Relatórios mensais</li>
+          <li>Suporte prioritário</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contato-section">
+      <h2>Fale com a gente</h2>
+      <form>
+        <input type="text" placeholder="Seu nome" />
+        <input type="email" placeholder="Seu e-mail" />
+        <textarea placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>© 2025 NUUVA. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
