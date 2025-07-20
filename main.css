@@ -209,12 +209,10 @@ body, p, li, details, summary, button, .button, .buttonAP, .buttonFU, .buttonCTA
   border-radius: 10px;
   font-weight: bold;
   text-decoration: none;
-  transition: background 0.3s, color 0.3s;
-}
-
-.btn-secondary:hover {
-  background-color: #2e4300;
-  color: white;
+  color: #1c1c1c;
+  font-weight: 500;
+  font-size: 20px;
+  
 }
 
 /* Botões */
